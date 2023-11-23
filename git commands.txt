@@ -53,6 +53,14 @@
   with commit hash we can go back to the desired place and with origin master we can
   go back just one step back."
 
+8. git remote add <name> <url>
+
+" This is used to fork(or copy) the original repository."
+
+9.  git push --set-upstream origin master 
+
+" This is used to set ur remote branchs as the  upstream branch for the local branch. After 
+setting the upstream u can use git pull and git push commands without specifying the remote and branch name."
 
 BRANCHING -> "This helps us to make changes to the existing code without even changeing
               or modifing the existing changes. It helps in working in the previous code
