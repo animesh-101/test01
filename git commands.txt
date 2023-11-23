@@ -1,0 +1,84 @@
+1. git add <filename>
+
+" This will add the files to the commit area 
+  where it will be commited to push to the github 
+  repository."
+
+
+2. git commit -m "message"
+
+" This will save the file to ur local repo but it 
+  will not save those files to the online repository.
+  In order to save the files to the online repo we will
+  use the 'git push' command.
+  The message here will be a descriptions of the changes 
+  that have been made to the file."
+
+
+3. git commit -am "message"
+
+" This works same as the above command but it will
+  add and commit all the files that has been changed 
+  in one step.
+  That means we dont need to add the file to commit
+  area it will commit the directly for push."
+
+
+4. git status
+
+" This will show the status of the repository that is what 
+  is in commit area to push and many addition status."
+
+5. git pull
+
+" This works as opposite of git push as git push pushes the
+  current changes to the remote repo it just bring the latest changes 
+  to ur local repo.
+  sometimes we have to deal will merge conflict because of some changes
+  that have been made to the online repo which is different from the 
+  changes of our local repo."
+
+6. git log
+
+" This is used to see the previous changes that have been made to the code.
+  It gives us a hash with which we can revert back to the changes that we want 
+  to revert back to."
+
+7. git reset --hard <commit hash>
+   git reset --hard origin/master
+
+" This helps us to revert back the code we want . every commit generates a hash
+  and that hash can be used to go back to that time of the code those changes we made."
+
+  with commit hash we can go back to the desired place and with origin master we can
+  go back just one step back."
+
+
+BRANCHING -> "This helps us to make changes to the existing code without even changeing
+              or modifing the existing changes. It helps in working in the previous code
+	      and also in the new code which we have been currently working on and once 
+              that is done we merge those changes bakc to the master branch."
+
+
+1. git branch
+
+" This gives the total branches we have in our repository and also the current branch we 
+  are in right now."
+
+2. git checkout -b <new branch name>
+
+" This helps in creating a new branch in our repo. Once it will change the current branch
+  as the new branch."
+
+3. git checkout <existing branch name>
+
+" This helps in switching between the existing branches."
+
+4. git merge <branch name>
+
+" In order to merge the branches first go the branch u want to have as ur main code 
+  branch then then use the git merge command with the branch name u wnt ti merge.
+
+  this will might raise merge conflict and u need to make changes to those codes."
+
+ 
